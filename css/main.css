@@ -1,0 +1,42 @@
+.main__list {
+  padding: 50px 20px;
+}
+
+.main__name {
+  font-size: 20px;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-top: 1px solid black;
+}
+
+.main__img-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+}
+.img {
+  width: 260px;
+  height: 330px;
+  border-radius: 3%;
+}
+
+.main__img {
+  background-color: #fcfcfc;
+  box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3%;
+}
+
+.main__img:not(:last-child) {
+  margin-right: 30px;
+}
+
+.main__img-name,
+main__img-price {
+  padding-top: 20px;
+}
